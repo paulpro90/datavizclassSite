@@ -1,0 +1,15 @@
+body {
+  background-color: #EEE;
+}
+
+p {
+  font-family: 'Lusitana', serif;
+  color: red;
+  text-align: center;
+}
+h1 {
+	font-family:'Roboto Condensed', sans-serif;
+	padding: 1em;
+	color: black;
+	font-size: 48px;
+}
