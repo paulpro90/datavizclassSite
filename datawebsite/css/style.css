@@ -1,15 +1,51 @@
 body {
-  background-color: #EEE;
+  background-color: white;
 }
 
 p {
-  font-family: 'Lusitana', serif;
-  color: red;
-  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+  text-align: left;
+  display: block;
 }
 h1 {
 	font-family:'Roboto Condensed', sans-serif;
-	padding: 1em;
+	letter-spacing: 1px;
+	padding-top: 1em;
+	padding-left: 40px;
 	color: black;
 	font-size: 48px;
+	line-height:8px
 }
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  color: rgb(57,57,57);
+  font-size: 12px;
+  line-height:1px
+}
+
+.vertical-menu a {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+	padding-left: 40px;
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding-bottom: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    color: rgb(157,157,157); /* Dark grey background on mouse-over */
+	font-style: italic;
+}
+.column {
+     width:150px;
+     float:left
+	 font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+	padding-left: 40px;
+	padding-top: 60px;
+}
+
