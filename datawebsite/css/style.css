@@ -37,13 +37,13 @@ h2 {
 }
 
 .vertical-menu a:hover {
-    color: rgb(157,157,157); /* Dark grey background on mouse-over */
+    color: rgb(157,157,157);
 	font-style: italic;
 }
 .column {
-     width:150px;
-     float:left
-	 font-family: 'Libre Baskerville', serif;
+    width:150px;
+    float:left
+	font-family: 'Libre Baskerville', serif;
 	font-size: 12px;
 	padding-left: 40px;
 	padding-top: 60px;
