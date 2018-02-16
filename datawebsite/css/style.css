@@ -69,12 +69,23 @@ nav ul a{
     text-decoration: none; /* Remove underline from links */
 }
 
+nav ul b{
+	list-style-type: none;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+	padding-left: 40px;
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding-bottom: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
 nav ul a:hover {
 	list-style-type: none;
     color: rgb(157,157,157);
 	font-style: italic;
 }
-.column {
+column {
     width:700px;
     float:left;
 	font-family: 'Libre Baskerville', serif;
@@ -82,16 +93,19 @@ nav ul a:hover {
 	padding-left: 40px;
 	padding-top: 60px;
 }
-.column.middle {
+column_middle {
+	margin: 250px; 
     width: 1000px;
-	float:left;
+	display: block;
+	padding-left: 1em;
 }
 
-.footer {
-   font-family: 'Libre Baskerville', serif;
+footer {
+  font-family: 'Libre Baskerville', serif;
   width: 850px;
   padding-left: 250px;
   padding-bottom: 20px;
+  display: block;
   color: rgb(57,57,57);
   font-size: 12px;
   
