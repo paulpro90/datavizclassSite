@@ -7,9 +7,10 @@ p {
   padding-left: 250px;
   color: black
   font-size: 12px;
+  text-align: left;
   display: block;
 }
-.p2 {
+p2 {
   padding-left; 220px;
   text-align: left;
   display: block;
@@ -18,14 +19,14 @@ h1 {
 	font-family:'Roboto Condensed', sans-serif;
 	letter-spacing: 1px;
 	padding-top: 1em;
-	padding-left: 225px;
+	padding-left: 250px;
 	color: black;
 	font-size: 48px;
 	line-height:8px
 }
 h2 {
   font-family: 'Libre Baskerville', serif;
-  padding-left: 225px;
+  padding-left: 250px;
   padding-bottom: 20px;
   color: rgb(57,57,57);
   font-size: 12px;
@@ -36,11 +37,12 @@ h3 {
 	font-family:'Roboto Condensed', sans-serif;
 	letter-spacing: 1px;
 	color: black;
+	padding-left: 250px;
 	font-size: 24px;
 	line-height:8px
   }
 
-.container{
+container{
  list-style-type: none;
  font-family: 'Libre Baskerville', serif;
  font-size: 12px;
@@ -94,16 +96,12 @@ nav ul a:hover {
 	padding-top: 60px;
 }
 .column_middle {
-	margin: 250px; 
     width: 1000px;
-	padding-left: 1em;
 }
 
 .footer {
   font-family: 'Libre Baskerville', serif;
   width: 850px;
-  padding-left: 250px;
-  padding-bottom: 20px;
   color: rgb(57,57,57);
   font-size: 12px;
-}
+  
