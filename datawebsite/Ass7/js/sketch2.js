@@ -1,6 +1,6 @@
 // Global Variables //
 var apiKey = 'e9d62e82d09c6e508f7d5bbff55d8bbf';
-var baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
+var baseURL = 'https://api.openweathermap.org/data/2.5/weather?q=';
 var weatherData;
 var city = 'New York';
 var button;
